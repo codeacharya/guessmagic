@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PRP Magic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+                <!-- Manual CSS start from here -->
+    <style>
+        h3{
+            text-align: center;
+            color: rebeccapurple;
+        }
+        #que_01{
+            text-align: center;
+            color: blue;
+        }
+        .card-body{
+            background: #e8efa9;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgb(101, 243, 101);
+        }
+        #center_element{
+            margin: auto;
+        }
+    </style>
+
+
+</head>
+                <!-- Page Design start from here -->
+  <body>
+
+    <h3> Welcome to PRP Magic</h3>
+
+    <div class="card w-50" id="center_element">
+        <div class="card-body">
+            <p class="card-text">
+                <p id="que_01">Think about a Number. </p>
+                <p style="text-align: center;">Suggestion : Think a even Number to easy calculation</p>
+            </p>
+            <div class="card text-center">
+                <a class="btn btn-primary" href="./Resources/Page2.html" role="button">Next</a>
+            </div>
+        </div>
+    </div>
+
+
+
+                <!-- Java Script Start from here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        let x=Math.random() *10
+        let random_number = Math.floor(x)
+        console.log(random_number*2)
+
+    </script>
+
+</body>
+</html>
